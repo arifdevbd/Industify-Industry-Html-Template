@@ -1,0 +1,78 @@
+
+/* 
+============================================================================================
+================================== Start Responsive Styling ==========================================
+============================================================================================
+ */
+ 
+ @media (max-width: 399.98px) { 
+    .serviceIcon {
+        margin: 15px auto;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    div#menu-top {
+        display: none;
+    }
+    .share-post a {
+        font-size: 14px;
+    }
+    .comment-item img {
+        width: 80px;
+        height: 80px;
+    }
+    .comment-content {
+        margin-left: 95px;
+    }
+    .comment-item.comment-left {
+        margin-left: 20px;
+    }
+ }
+ @media (max-width: 767.98px) { 
+    .availability {
+        display: none !important;
+    }
+    .contact-info.ml-auto {
+        margin: 0 auto !important;
+    }
+    #banner .slick-next,
+    #banner .slick-prev {
+        display: none !important;
+    }
+    #choose .slick-next {
+        right: 15px !important;
+        top: 100% !important;
+    }
+    #choose .slick-prev {
+        left: 15px !important;
+        top: 100% !important;
+    }
+
+ }
+ @media (max-width: 991.98px) { 
+    ul.navbar-nav.ml-5.menu-btn {
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+    
+    ul.navbar-nav.ml-5.menu-btn li {
+        padding-left: 0 !important;
+    }
+    #menu nav {
+        line-height: 40px;
+    }
+    .aboutOrder{
+        order: 2;
+    }
+    .aboutContent {
+        margin-bottom: 40px;
+    }
+
+ }
+ @media (max-width: 1199.98px) { 
+
+ 
+ }
+
+
+
